@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+  .card {
+    padding: theme('spacing.6');
+    @apply rounded-2xl bg-white border border-gray-200;
+  }
+
+  .table {
+
+    thead {
+        background-color: #F9FAFB;
+
+        th {
+            padding: 13px 23px;
+            text-align: left;
+            font-weight: 500;
+
+            @apply text-black-300;
+        }
+    }
+
+    td {
+        padding: 13px 23px;
+        border-bottom: 1px solid #E7E8EA;
+    }
+}
+}
+
+/* theme presets */
+
+.dark {
+
+    body {
+        background-color: #141414;
+        color: #fff;
+    }
+
+    .border-border, :is(.dark .dark\:border-border) {
+        border-color: #3a3a3a;
+    }
+
+    .text-primary, :is(.dark .dark\:text-primary) {
+        border-color: theme('colors.primary.200');
+    }
+
+}

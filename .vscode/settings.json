@@ -1,0 +1,41 @@
+{
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true,
+    "css.validate": false,
+    "less.validate": false,
+    "scss.validate": false,
+    "files.associations": {
+        "*.mq5": "cpp"
+    },
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true,
+      "source.fixAll.stylelint": true
+    },
+    "eslint.validate": [
+        "javascript",
+        "vue"
+    ],
+    "stylelint.validate": [
+        "vue"
+    ],
+    "i18n-ally.localesPaths": [
+        "assets/locales"
+    ],
+    "i18n-ally.keystyle": "nested",
+    "i18n-ally.displayLanguage": "en",
+    "i18n-ally.editor.preferEditor": true,
+    "i18n-ally.enabledFrameworks": [
+        "vue"
+    ],
+    "i18n-ally.extract.autoDetect": true,
+    "i18n-ally.extract.keyMaxLength": 10,
+    "i18n-ally.sourceLanguage": "en",
+    "i18n-ally.translate.engines": [
+        "google",
+        "deepl"
+    ],
+    "i18n-ally.usage.scanningIgnore": [
+        "public/**"
+    ],
+}
